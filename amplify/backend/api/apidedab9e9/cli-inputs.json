@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/customers/{customerID}": {
+      "name": "/customers/{customerID}",
+      "lambdaFunction": "amplifydemoapp6f804441",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

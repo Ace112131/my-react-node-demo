@@ -1,0 +1,43 @@
+{
+  "api": {
+    "apidedab9e9": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "amplifydemoapp6f804441"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "function": {
+    "amplifydemoapp6f804441": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_amplifydemoapp6f804441_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "amplifydemoapp6f804441"
+        }
+      ]
+    },
+    "AMPLIFY_function_amplifydemoapp6f804441_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "amplifydemoapp6f804441"
+        }
+      ]
+    }
+  }
+}
